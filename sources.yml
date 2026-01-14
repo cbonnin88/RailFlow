@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: railflow_raw
+    database: railflow-484310
+    schema: railflow
+    tables:
+      - name: users
+      - name: searches
+      - name: bookings
