@@ -3,7 +3,7 @@ version: 2
 sources:
   - name: railflow_raw
     database: railflow-484310
-    schema: railflow
+    schema: railflow_dataset
     tables:
       - name: users
       - name: searches
