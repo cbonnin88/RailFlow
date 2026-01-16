@@ -12,6 +12,7 @@ select
     s.search_date,
     s.origin,
     s.destination,
+    s.departure_date,
     b.booking_id,
     b.price,
     b.ticket_class,
