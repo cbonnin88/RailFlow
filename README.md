@@ -64,6 +64,10 @@ Built a production-grade **Star Schema** to enable self-service BI.
 * **Marts (Gold Layer):**
     * `fct_daily_performance`: Aggregated revenue, conversion rates, and search volume per route/day.
     * `dim_users`: User demographic dimensions.
+ 
+<img width="1328" height="338" alt="dbt-model" src="https://github.com/user-attachments/assets/523d6e22-b222-4312-8a67-f401519c1acc" />
+
+
 
 
 
