@@ -99,6 +99,7 @@ railflow/
 │   ├── architecture.png
 │   ├── dbt_lineage.png
 │   └── app_demo.png
+│   └── dashboard.png
 │
 ├── data_generation/           <-- Python scripts for Faker & GDPR hashing
 │   ├── generate_data.py
@@ -124,6 +125,13 @@ railflow/
 ```
 
 ---
+
+## [Railflow Dashboard](https://lookerstudio.google.com/reporting/c87b2a73-0902-43b3-9ee3-318a72594e91)
+
+<img width="1199" height="858" alt="Capture d’écran 2026-01-21 à 12 12 20" src="https://github.com/user-attachments/assets/9c9c9664-a306-4677-a1ce-9bea11c60f47" />
+
+
+
 
 ## 💻 How to Run
 
