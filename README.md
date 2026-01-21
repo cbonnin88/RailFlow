@@ -98,6 +98,9 @@ railflow/
 │
 ├── README.md                  <-- You are here
 ├── requirements.txt           <-- Python dependencies
+├── product_management/
+│   ├── PRD.md                 <-- The "Requirements"
+│   └── prioritization.md      <-- The "Strategy"
 │
 ├── assets/                    <-- Screenshots for documentation
 │   ├── architecture.png
