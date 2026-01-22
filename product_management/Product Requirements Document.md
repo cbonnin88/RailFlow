@@ -2,7 +2,7 @@
 
 | **Status** | **Owner** | **Date** |
 | :--- | :--- | :--- |
-| 🟢 In Development | [Your Name] | Q4 2024 |
+| 🟢 In Development | [Christopher Bonnin](https://www.linkedin.com/in/christopher-bonnin-a08a95197/) | Q4 2024 |
 
 ## 1. Problem Statement
 **Context:** Our data shows that 65% of users search for tickets (Paris -> Lyon) but abandon the cart.
