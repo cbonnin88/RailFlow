@@ -1,4 +1,5 @@
 # 📄 Product Requirements Document (PRD): Smart Discount Engine
+[![Google Docs](https://img.shields.io/badge/Google%20Docs-View%20Official%20PRD-blue?style=for-the-badge&logo=google-docs)](https://docs.google.com/document/d/1iW5_moleygaQEfFiqdRXZBuCPQBEbKf9JHIgXQw0KOs/edit?usp=sharing)
 
 | **Status** | **Owner** | **Date** |
 | :--- | :--- | :--- |
