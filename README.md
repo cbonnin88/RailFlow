@@ -1,7 +1,7 @@
 # <img width="2816" height="1536" alt="railflow" src="https://github.com/user-attachments/assets/cf276f84-f371-4976-b424-ae08b07c2beb" /> RailFlow: End-to-End Product Analytics Pipeline
 
 
-![RailFlow Banner](https://img.shields.io/badge/Status-Complete-green?style=for-the-badge) ![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge) ![BigQuery](https://img.shields.io/badge/Google-BigQuery-yellow?style=for-the-badge) ![dbt](https://img.shields.io/badge/dbt-Core-orange?style=for-the-badge) ![Streamlit](https://img.shields.io/badge/Streamlit-App-red?style=for-the-badge)
+![RailFlow Banner](https://img.shields.io/badge/Status-Complete-green?style=for-the-badge) ![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge) ![BigQuery](https://img.shields.io/badge/Google-BigQuery-yellow?style=for-the-badge) ![dbt](https://img.shields.io/badge/dbt-Core-orange?style=for-the-badge) ![Streamlit](https://img.shields.io/badge/Streamlit-App-red?style=for-the-badge)[![Google Sheets](https://img.shields.io/badge/Google%20Sheets-View%20Tracking%20Plan-green?style=for-the-badge&logo=google-sheets)](https://docs.google.com/spreadsheets/d/1JUQfvqKYaWsejuR8L9-QcTlmvPXMiPo-ML_Qe4f-6GE/edit?usp=sharing)
 
 
 **RailFlow** is a full-stack data project simulating a high-volume European train booking platform (inspired by SNCF Connect). It ingests raw user logs, transforms them into business-ready models, deploys a Machine Learning model to predict booking probability, and activates data for marketing automation.
@@ -89,6 +89,9 @@ Deployed a "Pricing Engine Simulator" allowing Product Managers to interact with
 * **Tracking Plan:** Defined the schema for `search_route` and `ticket_purchased` events.
 * **Experimentation:** Performed a Power Analysis to determine sample size (Required: ~86k users) and ran a Z-Test simulation to validate statistical significance of the discount feature.
 * **Reverse ETL:** Wrote a script to query "High Churn Risk" users (Searched recently + No Booking) and generate a JSON payload for CRM tools (Braze/Salesforce).
+* I designed a strict data schema to ensure high-quality data ingestion for the Machine Learning model.
+* **Key Events:** `search_route`, `prediction_generated`, `discount_offered`.
+* **Standard:** Snake_case naming convention with strict data typing to prevent data lake pollution.
 
 
 ## 📂 Repository Structure
